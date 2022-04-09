@@ -1,0 +1,385 @@
+body {
+  background: rgb(214, 214, 214);
+}
+.navbar {
+  background: rgb(239, 239, 239);
+}
+.logo {
+  font-weight: bold;
+}
+.container {
+  position: relative;
+  height: auto;
+}
+
+.links a {
+  padding: 3px 8px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 5px;
+  color: rgb(66, 66, 66);
+}
+
+.links a i {
+  font-size: 0.7rem;
+}
+.userSHow {
+  width: 100%;
+  height: 3vh;
+  background: rgb(182, 255, 175);
+  text-align: center;
+  position: relative;
+  font-size: 12px;
+  line-height: 3vh;
+  transition: 0.3s;
+}
+.userSHow span {
+  font-weight: bold;
+}
+
+.userSHow i {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  font-weight: bold;
+  transform: translate(-3%, -50%);
+  cursor: pointer;
+}
+.remove {
+  display: none;
+}
+
+.home {
+  width: 100%;
+  height: 75vh;
+  background-image: url("./asset/home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.chaya {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.564);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chaya h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 4.4rem;
+  margin-bottom: 2rem;
+}
+
+.chaya p {
+  color: rgb(172, 255, 255);
+  width: 30%;
+  text-align: center;
+}
+
+.chaya .homeBtn {
+  width: 130px;
+  height: 50px;
+  margin: 0 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-top: 40px;
+}
+
+.chaya .hbook {
+  background: rgba(255, 255, 255, 0.395);
+}
+
+.chaya .hpack {
+  background: rgba(0, 136, 255, 0.55);
+}
+
+.chaya .homeBtn i {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.home .services {
+  position: absolute;
+  width: 70%;
+  height: auto;
+  background: rgb(255, 255, 255);
+  bottom: -28%;
+  left: 50%;
+  transform: translate(-50%, 15%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.home .services .ser {
+  width: 30%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.home .services .ser i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: rgb(1, 134, 243);
+}
+.home .services .ser h3 {
+  text-align: center;
+  font-weight: bold;
+}
+.home .services .ser p {
+  width: 70%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgb(146, 146, 146);
+}
+
+.home .services .ser2 {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.home-2 {
+  width: 100%;
+  height: 60vh;
+  margin-top: 35vh;
+  padding: 5rem 0;
+  background-image: url("./asset/map.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.top-shadow,
+.bottom-shadow {
+  position: absolute;
+
+  left: 0;
+  width: 100%;
+  height: 20vh;
+}
+
+.top-shadow {
+  background: linear-gradient(rgb(214, 214, 214), #f8f8f870);
+  top: 0%;
+}
+.bottom-shadow {
+  background: linear-gradient(#f8f8f870, rgb(214, 214, 214));
+  bottom: 0%;
+}
+
+.home-2 .discover {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.home-2 .discover .left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-2 .discover .left h1 {
+  width: 50%;
+  margin-left: 20%;
+}
+.home-2 .discover .left p {
+  width: 60%;
+  margin-left: 20%;
+  color: rgb(97, 97, 97);
+}
+.home-2 .discover .left button,
+.home-3 .context button {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  margin-left: 20%;
+  background: rgb(1, 134, 243);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.home-2 .discover .left button a,
+.home-3 .context button a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-2 .discover .left button:hover,
+.home-3 .context button:hover {
+  background: rgb(0, 110, 199);
+}
+
+.home-2 .discover .dis-slider {
+  width: 60%;
+  height: 100%;
+}
+.home-2 .discover .dis-slider .item {
+  width: 320px;
+  height: 400px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.home-2 .discover .dis-slider .item .img-bg {
+  width: 100%;
+  height: 100%;
+}
+.home-2 .discover .dis-slider .item .img-bg img {
+  width: 100%;
+}
+.home-2 .discover .dis-slider .item .img-bg .content-pack {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.511);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.home-2 .discover .dis-slider .item .img-bg .content-pack .review {
+  width: 40%;
+  height: 70%;
+  padding-bottom: 15px;
+}
+
+.home-2 .discover .dis-slider .item .img-bg .content-pack .review h2 {
+  color: whitesmoke;
+}
+
+.home-2 .discover .dis-slider .item .img-bg .content-pack .review p {
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+.home-2 .discover .dis-slider .item .img-bg .content-pack .price {
+  text-align: right;
+  width: 40%;
+}
+
+.home-2 .discover .dis-slider .item .img-bg .content-pack .price h5,
+.home-2 .discover .dis-slider .item .img-bg .content-pack .price p {
+  color: whitesmoke;
+}
+
+.lni-star-filled,
+.lni-star {
+  color: #fbc42d;
+}
+
+.home-3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-3 .img-bg {
+  width: 35%;
+  height: 90%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.home-3 .img-bg img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-3 .context {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.home-3 .context h1 {
+  width: 60%;
+  text-align: end;
+}
+.home-3 .context p {
+  width: 90%;
+  text-align: end;
+  color: rgb(114, 114, 114);
+}
+.home-3 .context .some-service {
+  width: 600px;
+  height: 300px;
+}
+.home-3 .context .some-service .up,
+.home-3 .context .some-service .down {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.home-3 .context .some-service .up {
+  border-bottom: 1px solid #000;
+}
+.home-3 .context .some-service .up .cont,
+.home-3 .context .some-service .down .contt {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-3 .context .some-service .up .cont h4,
+.home-3 .context .some-service .down .contt h4 {
+  color: rgb(19, 79, 0);
+  font-weight: bold;
+  text-align: center;
+}
+
+.home-3 .context .some-service .up .cont p,
+.home-3 .context .some-service .down .contt p {
+  text-align: center;
+  width: 90%;
+}
+.home-3 .context .some-service .up .cont2 {
+  border-right: 1px solid #000;
+}
+.home-3 .context .some-service .down .cont4 {
+  border-right: 1px solid #000;
+}
+
+.home-4 {
+  width: 100%;
+  height: 100vh;
+  background: red;
+}

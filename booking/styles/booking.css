@@ -1,0 +1,101 @@
+.ticket-1 {
+  width: 100%;
+  height: 20vh;
+  background-image: url(../asset/travel.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.tick-1 {
+  width: 90%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 15px auto;
+}
+.tick-1 .up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tick-1 .up .left,
+.tick-1 .up .mid,
+.tick-1 .up .right {
+  width: 30%;
+  height: 10rem;
+}
+
+.tick-1 .up .left h4 {
+  font-weight: bold;
+  padding-top: 40px;
+}
+.tick-1 .up .left small {
+  color: #989898;
+}
+.tick-1 .up .left p {
+  font-weight: bold;
+  color: rgb(255, 121, 97);
+  margin-top: 10px;
+}
+
+.tick-1 .up .mid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.tick-1 .up .mid p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.tick-1 .up .mid p:nth-child(2) i {
+  color: red;
+  font-size: 2rem;
+}
+.tick-1 .up .right {
+  text-align: right;
+  padding-top: 30px;
+}
+.tick-1 .up .right .price {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(255, 121, 97);
+}
+
+.tick-1 .up .right .offday {
+  background: rgb(255, 217, 210);
+  border: 1px solid rgb(255, 121, 97);
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+.tick-1 .up .right p {
+  font-size: 0.8rem;
+}
+.tick-1 .up button {
+  margin-top: 10px;
+}
+.tick-1 .down {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.tick-1 .down p {
+  font-weight: 600;
+  color: rgb(141, 141, 141);
+}
+
+.tick-1 .down span {
+  padding: 3px 8px;
+  background: rgb(228, 228, 228);
+  border-radius: 4px;
+  margin: 0 10px;
+  font-weight: lighter;
+  color: rgb(15, 15, 15);
+}

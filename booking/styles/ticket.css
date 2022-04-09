@@ -1,0 +1,21 @@
+.select-ticket {
+  background-image: url("../asset/ticketbg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 25vh;
+  border-radius: 7px;
+}
+
+.tit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tit p {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
